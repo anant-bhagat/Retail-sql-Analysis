@@ -1,13 +1,13 @@
 # Retail Sales & Profitability Analysis (SQL)
 
 ## 📌 Objective
-To analyze retail sales data and identify key drivers of revenue, profitability, and customer performance using SQL.
+To analyze retail sales data and identify key drivers of revenue and profitability using SQL.
 
 ---
 
 ## 🧰 Tools & Technologies
 - MySQL
-- SQL (Aggregations, CTEs, Window Functions)
+- SQL (Aggregations, GROUP BY, Filtering)
 
 ---
 
@@ -22,7 +22,7 @@ To analyze retail sales data and identify key drivers of revenue, profitability,
 
 ### 🔹 Business Analysis
 - Total sales and profit calculation  
-- Sales analysis by region  
+- Sales performance by region  
 - Profitability analysis by category and sub-category  
 - Identification of loss-making sub-categories  
 - Top customers based on sales contribution  
@@ -41,32 +41,23 @@ To analyze retail sales data and identify key drivers of revenue, profitability,
 
 ---
 
-### 🔹 Advanced SQL Techniques
-- **CTEs (Common Table Expressions)** for better query structuring  
-- **Window Functions**:
-  - RANK() for customer ranking  
-  - Running total for cumulative sales  
-  - PARTITION BY for region-wise analysis  
-
----
-
 ## 🔍 Key Insights
-- A small group of customers contributes significantly to overall sales  
-- Certain sub-categories generate consistent losses  
-- Sales performance varies across regions  
-- Monthly sales trends indicate fluctuations over time  
+- Sales performance varies across different regions  
+- Certain sub-categories generate losses, impacting overall profitability  
+- A small number of customers contribute significantly to total sales  
+- Sales show variation across months and years  
 
 ---
 
 ## 💡 Business Recommendations
 - Focus on high-performing regions to maximize revenue  
-- Review pricing or discontinue loss-making products  
+- Review pricing or optimize loss-making products  
 - Strengthen relationships with top customers  
 - Use sales trends for better planning and forecasting  
 
 ---
 
 ## 🚀 Future Scope
-- Export queries and build dashboards using Power BI  
-- Perform deeper customer segmentation  
-- Apply predictive analytics for forecasting  
+- Apply advanced SQL techniques like CTEs and window functions  
+- Build dashboards using Power BI or Tableau  
+- Perform deeper customer segmentation analysis  
